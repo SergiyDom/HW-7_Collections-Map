@@ -1,4 +1,4 @@
-package com.homework_7;
+package com.homework_7.task_1_duplicate_with_string;
 
 import com.homework_7.task_1_duplicate_with_string.TaskOneManager;
 
