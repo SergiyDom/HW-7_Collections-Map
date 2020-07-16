@@ -1,7 +1,7 @@
-package com.homework_7.task_2_family.io;
+package com.domaranskiy.family.io;
 
-import com.homework_7.task_2_family.FamilyObject.Family;
-import com.homework_7.task_2_family.NobleTitles;
+import com.domaranskiy.family.FamilyObject.Family;
+import com.domaranskiy.family.NobleTitles;
 
 import java.util.HashMap;
 import java.util.Map;

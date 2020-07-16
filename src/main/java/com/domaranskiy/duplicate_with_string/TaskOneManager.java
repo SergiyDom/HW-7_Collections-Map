@@ -1,9 +1,9 @@
-package com.homework_7.task_1_duplicate_with_string;
+package com.domaranskiy.duplicate_with_string;
 
-import com.homework_7.task_1_duplicate_with_string.io.*;
-import com.homework_7.task_1_duplicate_with_string.model.StringModel;
-import com.homework_7.task_1_duplicate_with_string.servis.IService;
-import com.homework_7.task_1_duplicate_with_string.servis.ServiceDuplicate;
+import com.domaranskiy.duplicate_with_string.io.*;
+import com.domaranskiy.duplicate_with_string.model.StringModel;
+import com.domaranskiy.duplicate_with_string.servis.IService;
+import com.domaranskiy.duplicate_with_string.servis.ServiceDuplicate;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

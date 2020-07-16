@@ -1,7 +1,7 @@
-package com.homework_7;
+package com.domaranskiy;
 
-import com.homework_7.task_1_duplicate_with_string.TaskOneManager;
-import com.homework_7.task_2_family.TaskTwoManager;
+import com.domaranskiy.duplicate_with_string.TaskOneManager;
+import com.domaranskiy.family.TaskTwoManager;
 
 public class Main {
     public static void main(String[] args) {

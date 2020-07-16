@@ -1,11 +1,11 @@
-package com.homework_7.task_2_family;
+package com.domaranskiy.family;
 
-import com.homework_7.task_2_family.FamilyObject.Family;
-import com.homework_7.task_2_family.io.InitFamily;
-import com.homework_7.task_2_family.io.PrintFamily;
-import com.homework_7.task_2_family.servis.ComparableByName;
-import com.homework_7.task_2_family.servis.ComparatorByNameOfEmblem;
-import com.homework_7.task_2_family.servis.ComparatorByTitle;
+import com.domaranskiy.family.FamilyObject.Family;
+import com.domaranskiy.family.io.InitFamily;
+import com.domaranskiy.family.io.PrintFamily;
+import com.domaranskiy.family.servis.ComparableByName;
+import com.domaranskiy.family.servis.ComparatorByNameOfEmblem;
+import com.domaranskiy.family.servis.ComparatorByTitle;
 
 import java.util.*;
 

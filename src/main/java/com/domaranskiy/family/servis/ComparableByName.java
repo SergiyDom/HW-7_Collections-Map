@@ -1,6 +1,6 @@
-package com.homework_7.task_2_family.servis;
+package com.domaranskiy.family.servis;
 
-import com.homework_7.task_2_family.FamilyObject.Family;
+import com.domaranskiy.family.FamilyObject.Family;
 
 import java.util.Collections;
 import java.util.List;

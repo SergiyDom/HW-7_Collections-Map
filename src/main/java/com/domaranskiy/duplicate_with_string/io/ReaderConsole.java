@@ -1,4 +1,4 @@
-package com.homework_7.task_1_duplicate_with_string.io;
+package com.domaranskiy.duplicate_with_string.io;
 
 import java.io.BufferedReader;
 import java.io.IOException;

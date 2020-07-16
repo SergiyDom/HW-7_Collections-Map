@@ -1,4 +1,4 @@
-package com.homework_7.task_2_family;
+package com.domaranskiy.family;
 
 public enum NobleTitles {
     GRAND_DUC,

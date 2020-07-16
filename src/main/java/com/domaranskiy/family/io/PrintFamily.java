@@ -1,4 +1,4 @@
-package com.homework_7.task_2_family.io;
+package com.domaranskiy.family.io;
 
 import java.util.List;
 import java.util.Map;

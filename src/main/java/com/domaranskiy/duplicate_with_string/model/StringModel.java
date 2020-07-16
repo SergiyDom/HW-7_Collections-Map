@@ -1,8 +1,8 @@
-package com.homework_7.task_1_duplicate_with_string.model;
+package com.domaranskiy.duplicate_with_string.model;
 
-import com.homework_7.task_1_duplicate_with_string.io.IData;
-import com.homework_7.task_1_duplicate_with_string.io.IPrinter;
-import com.homework_7.task_1_duplicate_with_string.servis.IService;
+import com.domaranskiy.duplicate_with_string.io.IData;
+import com.domaranskiy.duplicate_with_string.io.IPrinter;
+import com.domaranskiy.duplicate_with_string.servis.IService;
 
 import java.io.IOException;
 

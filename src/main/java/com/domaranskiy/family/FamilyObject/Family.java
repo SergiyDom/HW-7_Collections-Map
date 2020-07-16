@@ -1,6 +1,6 @@
-package com.homework_7.task_2_family.FamilyObject;
+package com.domaranskiy.family.FamilyObject;
 
-import com.homework_7.task_2_family.NobleTitles;
+import com.domaranskiy.family.NobleTitles;
 
 public class Family implements Comparable<Family>{
     private String name;
