@@ -1,6 +1,6 @@
 package com.domaranskiy.family.io;
 
-import com.domaranskiy.family.FamilyObject.Family;
+import com.domaranskiy.family.family_object.Family;
 import com.domaranskiy.family.NobleTitles;
 
 import java.util.HashMap;

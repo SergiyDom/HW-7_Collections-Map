@@ -1,8 +1,10 @@
-package com.domaranskiy.family.FamilyObject;
+package com.domaranskiy.family.family_object;
 
 import com.domaranskiy.family.NobleTitles;
 
-public class Family implements Comparable<Family>{
+import java.util.Objects;
+
+public class Family implements Comparable<Family> {
     private String name;
     private int quantityMember;
     private NobleTitles title;
@@ -44,5 +46,21 @@ public class Family implements Comparable<Family>{
     @Override
     public int compareTo(Family family) {
         return this.name.compareTo(family.getName());
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Family family = (Family) o;
+        return quantityMember == family.quantityMember &&
+                Objects.equals(name, family.name) &&
+                title == family.title &&
+                Objects.equals(nameOfEmblem, family.nameOfEmblem);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, quantityMember, title, nameOfEmblem);
     }
 }

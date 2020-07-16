@@ -9,7 +9,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 public class TaskOneManager {
-    public void getRidDuplicate() {
+    private void getRidDuplicate() {
         BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
         IReader reader = new ReaderConsole(scanner);
         IPrinter printer = new PrinterConsole();
@@ -20,5 +20,10 @@ public class TaskOneManager {
         stringModel.init(data);
         stringModel.ridOfDuplicates(service);
         stringModel.done(printer);
+    }
+
+    public static void run() {
+        System.out.println("Task One begin:");
+        new TaskOneManager().getRidDuplicate();
     }
 }
